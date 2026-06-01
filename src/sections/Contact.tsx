@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
@@ -6,21 +5,6 @@ export default function Contact() {
   const { ref: sectionRef, isInView } = useIntersectionObserver<HTMLElement>({
     threshold: 0.15,
   });
-
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    grade: '',
-    board: '',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In a real app, this would send the form data
-    alert('Thank you for your enquiry! We will contact you soon.');
-    setFormData({ name: '', phone: '', grade: '', board: '', message: '' });
-  };
 
   return (
     <section
