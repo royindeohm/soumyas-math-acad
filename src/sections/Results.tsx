@@ -2,9 +2,9 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 
 const stats = [
-  { value: 500, suffix: '+', label: 'Students Mentored' },
+  { value: 250, suffix: '+', label: 'Students Mentored' },
   { value: 95, suffix: '%', label: 'Success Rate' },
-  { value: 12, suffix: '+', label: 'Years Experience' },
+  { value: 6, suffix: '+', label: 'Years Experience' },
   { value: 3, suffix: '', label: 'Boards Covered' },
 ];
 

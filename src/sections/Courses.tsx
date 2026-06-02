@@ -34,7 +34,7 @@ export default function Courses() {
     {
       id: 'higher-secondary',
       title: 'Higher Secondary Division',
-      classes: 'Classes XI - XII',
+      classes: 'Classes IX - XII',
       board: 'West Bengal Board',
       subjects: ['Mathematics', 'Biology'],
       icon: BookOpen,
